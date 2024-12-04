@@ -129,6 +129,7 @@
             // 
             // textBoxResult_DAA
             // 
+            textBoxResult_DAA.BackColor = SystemColors.ButtonHighlight;
             textBoxResult_DAA.BorderStyle = BorderStyle.None;
             textBoxResult_DAA.Location = new Point(0, 22);
             textBoxResult_DAA.Name = "textBoxResult_DAA";
@@ -143,7 +144,7 @@
             buttonAnswer_DAA.Size = new Size(148, 40);
             buttonAnswer_DAA.TabIndex = 4;
             buttonAnswer_DAA.Text = "Выполнить";
-            buttonAnswer_DAA.UseVisualStyleBackColor = true;
+            buttonAnswer_DAA.UseVisualStyleBackColor = true;//
             buttonAnswer_DAA.Click += buttonAnswer_DAA_Click;
             // 
             // buttonHelp_DAA

@@ -11,6 +11,6 @@ namespace Tyuiu.DikanovAA.Sprint6.Task0.V27.Test
             double res = ds.Calculate(4);
             double wait = -6;
             Assert.AreEqual(wait, res);
-        }
+        }////
     }
 }
