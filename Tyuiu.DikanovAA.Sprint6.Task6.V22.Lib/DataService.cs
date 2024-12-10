@@ -12,17 +12,37 @@ namespace Tyuiu.DikanovAA.Sprint6.Task6.V22.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    for (int i = 0; i < line.Length; i++)
+                    if (resStr != "")
                     {
-                        if (line[i] != ' ')
+                        resStr = resStr + " ";
+                        for (int i = 0; i < line.Length; i++)
                         {
-                            resStr = resStr + line[i] + " ";
+                            if (line[i] != ' ')
+                            {
+                                resStr = resStr + line[i];
+                            }
+                            else
+                            {
+                                break;
+                            }
                         }
-                        else
+
+                    }
+                    else
+                    {
+                        for (int i = 0; i < line.Length; i++)
                         {
-                            break;
+                            if (line[i] != ' ')
+                            {
+                                resStr = resStr + line[i];
+                            }
+                            else
+                            {
+                                break;
+                            }
                         }
                     }
+                    
                 }
             }
             return resStr;
