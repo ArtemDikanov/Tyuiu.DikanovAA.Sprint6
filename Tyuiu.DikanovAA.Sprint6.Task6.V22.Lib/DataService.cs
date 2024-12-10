@@ -45,6 +45,7 @@ namespace Tyuiu.DikanovAA.Sprint6.Task6.V22.Lib
                     
                 }
             }
+            resStr = resStr.Trim();
             return resStr;
         }
     }
