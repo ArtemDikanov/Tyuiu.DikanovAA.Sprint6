@@ -16,7 +16,7 @@ namespace Tyuiu.DikanovAA.Sprint6.Task6.V22.Lib
                     {
                         if (line[i] != ' ')
                         {
-                            resStr = resStr + line[i];
+                            resStr = resStr + line[i] + " ";
                         }
                         else
                         {
