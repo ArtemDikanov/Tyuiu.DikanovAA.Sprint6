@@ -24,7 +24,7 @@ namespace Tyuiu.DikanovAA.Sprint6.Task7.V25.Lib
                     arrayValues[r, c] = Convert.ToInt32(line_r[c]);
                 }
             }
-            int xCol = 7;
+            int xCol = 6;
             for (int r = 0; r < rows; r++)
             {
                 for (int c = xCol; c <= xCol; c++)
